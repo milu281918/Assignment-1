@@ -63,7 +63,7 @@ nav .items {
 }
 .banner {
   height: 100vh;
-  background-image: url("../resources/header-bg.png");
+  background-image: url("./resources/header-bg.png");
   max-width: 1500px;
   margin: 0 auto;
   background-size: cover;
