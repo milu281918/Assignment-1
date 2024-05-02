@@ -143,7 +143,7 @@ h4 {
 /* works  */
 .works {
   background-image: linear-gradient(to bottom, #2e5776e5, #2e5776e5),
-    url("./resources/font.jpg");
+    url("./resources/header-bg.png");
   background-size: cover;
   margin: 50px auto;
   height: 800px;
