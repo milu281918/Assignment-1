@@ -68,20 +68,16 @@ nav .items {
   margin: 0 auto;
   background-size: cover;
   background-position: center;
- 
-  
-
 }
 .button {
   text-align: center;
-  
 }
 .btn-primary {
   width: 150px;
   height: 50px;
   border-radius: 21px;
-  border-color: rgb(2, 189, 130) ;
-  color:rgb(2, 189, 130) ;
+  border-color: rgb(2, 189, 130);
+  color: rgb(2, 189, 130);
   background-color: white;
 }
 /* main section */
@@ -94,7 +90,7 @@ nav .items {
 }
 .card .row {
   border-radius: 5px;
-  
+
   width: 25%;
   margin: 0 5%;
   padding: 0 2%;
@@ -121,11 +117,10 @@ nav .items {
   margin: 100px auto;
   width: 100%;
   height: 410px;
-  background-color: #1e3b57;;
+  background-color: #1e3b57;
 }
-.welcome-content{
+.welcome-content {
   padding-top: 70px;
-
 }
 .welcome-text {
   height: 250px;
@@ -135,97 +130,118 @@ nav .items {
   padding: 0 10%;
   color: white;
 }
-.welcome-text > h2 , h4{
+.welcome-text > h2,
+h4 {
   margin: 5px auto;
 }
 
 /* benefits  */
 
-.benefits-text > h2{
+.benefits-text > h2 {
   text-align: center;
 }
 /* works  */
-.works{
+.works {
   background-image: linear-gradient(to bottom, #2e5776e5, #2e5776e5),
     url("./resources/font.jpg");
   background-size: cover;
   margin: 50px auto;
   height: 800px;
   background-position: center;
-  
 }
-.works-text{
+.works-text {
   text-align: center;
   font-weight: 900;
   padding: 150px 250px 0 250px;
- 
 }
-.works-text > h2,h4{
- margin-top: 24px;
- color: white;
+.works-text > h2,
+h4 {
+  margin-top: 24px;
+  color: white;
 }
 /* course  */
-.img12{
+.img12 {
   background-image: url("./resources/tech-skills.jpg");
   background-size: cover;
   height: 100%;
 }
 /* learn  */
-.learn{
-  background-image: url("./resources/header-bg.png");
+.learn {
+  background-image: linear-gradient(to bottom, #2e5776e5, #2e5776e5),
+    url("./resources/window.jpg");
   background-size: cover;
-  height: 900px;
-
-
+  height: 600px;
 }
-.learn-1{
+.learn-1 {
   align-items: center;
+  
 }
-.learn-text{
+.learn-text {
   width: 50%;
   padding-left: 5%;
+  padding-top: 50px;
+  max-width: 1470px;
 }
-.learn-flex{
-  width: 50%;
+.learn-text > h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(2, 189, 130);
+}
+.learn-flex {
+  font-size: 20px;
   display: flex;
-gap: 100px;
-margin: 0 auto;
+  color: white;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1100px;
 }
-.learn-text2{
-  width: 50%;
-  padding-left: 5%;
+.percent {
+  
+  display: flex;
+  gap: 50px;
+  padding-left: 100px;
 }
-.percent{
-  width: 50%;
-  padding-right: 5%;
-  display:flex;
-  gap: 20px;
 
-}
 /* meet  */
-.meet{
-  height: 720px;
- border: 2px solid;
+.meet {
+  height: 820px;
 }
-.meet-text{
+.meet-text {
   max-width: 570px;
 
   text-align: center;
   padding: 23px 0px 21px 0px;
   margin: 10px auto;
- 
 }
-.meet > h4{
-  
- text-align: center;
+.meet > h4 {
+  text-align: center;
 }
 /* footer  */
-.start{
+.start {
   background-color: rgb(2, 189, 130);
-  height: 500px;
+  height: 400px;
   margin: 0px auto;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 5%;
 }
-.web{
+.start-1{
+  max-width:1200px;
+  display: flex;
+  gap: 200px;
+}
+.box-1{
+  width: 50%;
+}
+.box-1 > input{
+  margin-top: 20px;
+  width: 350px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding-left: 20px;
+}
+.web {
   background-color: black;
   color: white;
 
@@ -234,6 +250,6 @@ margin: 0 auto;
   margin: 0px auto;
   height: 70px;
 }
-.web > h3{
+.web > h3 {
   padding-top: 25px;
 }
